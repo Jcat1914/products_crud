@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone X",
+      "category": "Smartphone",
+      "price": "$999"
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S9",
+      "category": "Smartphone",
+      "price": "$799"
+    },
+    {
+      "id": "3",
+      "name": "Sony PlayStation 4",
+      "category": "Gaming Console",
+      "price": "$299"
+    },
+    {
+      "id": "4",
+      "name": "Amazon Echo",
+      "category": "Smart Speaker",
+      "price": "$99"
+    },
+    {
+      "id": "5",
+      "name": "Fitbit Charge 2",
+      "category": "Fitness Tracker",
+      "price": "$129"
+    },
+    {
+      "id": "6",
+      "name": "Dell XPS 13",
+      "category": "Laptop",
+      "price": "$999"
+    },
+    {
+      "id": "7",
+      "name": "Canon EOS Rebel T6",
+      "category": "Camera",
+      "price": "$449"
+    },
+    {
+      "id": "8",
+      "name": "LG 55-Inch 4K Ultra HD Smart TV",
+      "category": "TV",
+      "price": "$699"
+    },
+    {
+      "id": "9",
+      "name": "Bose QuietComfort 35 II",
+      "category": "Headphones",
+      "price": "$349"
+    },
+    {
+      "id": "10",
+      "name": "Nintendo Switch",
+      "category": "Gaming Console",
+      "price": "$299"
+    },
+    {
+      "id": "11",
+      "name": "GoPro HERO7 Black",
+      "category": "Action Camera",
+      "price": "$399"
+    },
+    {
+      "id": "12",
+      "name": "Microsoft Surface Pro 6",
+      "category": "Tablet",
+      "price": "$899"
+    },
+    {
+      "id": "13",
+      "name": "LG G8 ThinQ",
+      "category": "Smartphone",
+      "price": "$849"
+    },
+    {
+      "id": "14",
+      "name": "Sony WH-1000XM3",
+      "category": "Headphones",
+      "price": "$349"
+    },
+    {
+      "id": "15",
+      "name": "Samsung 65-Inch QLED 4K Smart TV",
+      "category": "TV",
+      "price": "$1,599"
+    },
+    {
+      "id": "16",
+      "name": "Apple Watch Series 4",
+      "category": "Smartwatch",
+      "price": "$399"
+    },
+    {
+      "id": "17",
+      "name": "HP Pavilion 27xw",
+      "category": "Monitor",
+      "price": "$199"
+    },
+    {
+      "id": "18",
+      "name": "Nikon D850",
+      "category": "Camera",
+      "price": "$2,999"
+    },
+    {
+      "id": "19",
+      "name": "Google Pixel 3",
+      "category": "Smartphone",
+      "price": "$799"
+    },
+    {
+      "id": "20",
+      "name": "Beats Studio3 Wireless",
+      "category": "Headphones",
+      "price": "$349"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<form action="/products" method="post">
+    <fieldset>
+        <legend>Add Product Form</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">   
+        <label for="price">Price</label>
+        <input type="text" name="price" id="price">
+        <label for="category">Category</label>
+        <select name="category" id="category">
+            {{#each categories}}
+                    <option value="{{this.category}}">{{this.category}}</option>
+            {{/each}}
+        </select>
+        <button type="submit">Submit</button>
+    </fieldset>
+</form>

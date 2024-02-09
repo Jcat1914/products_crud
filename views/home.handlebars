@@ -1,0 +1,39 @@
+<header>
+    <h1>Product's CRUD</h1>
+    <nav>
+        
+    </nav>
+</header>
+<main>
+    <section class="filters">
+        <a href="/add-product-form">Add Product</a>
+        <form action="/" method="get">
+            <label for="name">Search Product</label>
+            <input type="text" name="name">
+            <button type="submit">Search</button>
+        </form>   
+    </section>
+    <section class="products-list">
+        <table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each product}}
+            <tr>
+                <td>{{this.id}}</td>
+                <td>{{this.name}}</td>
+                <td>$ {{this.price}}</td>
+                <td><a href="/update-product-form/{{this.id}}">Edit Product</a>
+                <a href="/delete-product/{{this.id}}">Delete Product</a></td>
+            </tr>     
+        {{/each}}  
+    </tbody>
+</table>
+</section>
+</main>
